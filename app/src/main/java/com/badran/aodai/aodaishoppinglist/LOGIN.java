@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.badran.aodai.aodaishoppinglist.mainlistfragments.MainListActivity;
+
 public class LOGIN extends AppCompatActivity implements View.OnClickListener {
     private static final String PREF_FILE_NAME ="AodaiPref" ;
     private Button BTNsignin;
@@ -39,7 +41,8 @@ public class LOGIN extends AppCompatActivity implements View.OnClickListener {
             String passw = prefs.getString("passw", null);
             if (user != null || passw != null)
                 Toast.makeText(this, "Successfully logged", Toast.LENGTH_SHORT).show();
-            finish();
+            Intent intent = new Intent(this, MainListActivity.class);
+            startActivity(intent);
         }
 
         if (BTNsignup == view) {

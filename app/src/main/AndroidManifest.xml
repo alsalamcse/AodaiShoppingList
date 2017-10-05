@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".REGISTER" />
-        <activity android:name=".Shoppinglists"></activity>
+        <activity
+            android:name=".mainlistfragments.MainListActivity"
+            android:label="@string/title_activity_main_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
