@@ -23,7 +23,7 @@ public class REGISTER extends AppCompatActivity implements View.OnClickListener 
         setContentView(R.layout.activity_register);
         BTNSave=(Button) findViewById(R.id.BTNSave);
         ETusername= (EditText) findViewById(R.id.ETusername);
-        ETemail=(EditText) findViewById(R.id.ETmail);
+        ETemail=(EditText) findViewById(R.id.ETemail);
         ETpassword=(EditText) findViewById(R.id.ETpassword);
         BTNDELETE=(Button) findViewById(R.id.BTNDELETE);
     }
