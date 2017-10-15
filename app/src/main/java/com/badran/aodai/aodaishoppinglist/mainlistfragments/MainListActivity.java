@@ -63,7 +63,7 @@ public class MainListActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainListActivity.this, addItem.class));
+                startActivity(new Intent(MainListActivity.this, AddItem.class));
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }

@@ -28,8 +28,9 @@ public class LOGIN extends AppCompatActivity implements View.OnClickListener {
         BTNsignin=(Button) findViewById(R.id.BTsignin);
         BTNsignup=(Button) findViewById(R.id.BTsignup);
         BTNfmpassword=(Button) findViewById(R.id.BTNfmpassword);
-
-
+        BTNsignin.setOnClickListener(this);
+        BTNsignup.setOnClickListener(this);
+        BTNfmpassword.setOnClickListener(this);
     }
 
 
