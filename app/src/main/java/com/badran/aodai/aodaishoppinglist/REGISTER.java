@@ -53,12 +53,6 @@ public class REGISTER extends AppCompatActivity implements View.OnClickListener 
             String passw=ETpassword.getText().toString();
             String name=ETusername.getText().toString();
             boolean isOk=true;//to check if all feilds are filled correctly
-            if (email.length()==0)  email.indexOf("@")<1)
-            {
-                ETemail.setError("Wrong Email");
-                isOk=false;
-
-            }
 
             createAccount(email,passw);
     }

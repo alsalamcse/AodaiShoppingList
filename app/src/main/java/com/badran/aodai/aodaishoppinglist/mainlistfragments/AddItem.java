@@ -18,7 +18,7 @@ import com.badran.aodai.aodaishoppinglist.R;
 
 import java.util.ArrayList;
 
-public class AddItem extends MainListActivity {
+public class AddItem extends AppCompatActivity {
     private EditText ETname;
     private EditText ETamount;
     private EditText ETunits;
