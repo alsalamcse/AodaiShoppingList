@@ -11,4 +11,6 @@
     <string name="units">Units to get</string>
     <string name="price">Price of item</string>
     <string name="name">Item name</string>
+    <string name="total">price</string>
+    <string name="Count">count</string>
 </resources>
