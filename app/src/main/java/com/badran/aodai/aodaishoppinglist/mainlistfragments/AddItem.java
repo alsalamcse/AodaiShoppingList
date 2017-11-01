@@ -38,6 +38,15 @@ public class AddItem extends AppCompatActivity {
         BTNSave = (Button) findViewById(R.id.BTNSave);
         iBTNimage = (ImageView) findViewById(R.id.iBTNimage);
     }
+
+    public void dataHandler() {
+        String name = ETname.getText().toString();
+        String stamount = ETamount.getText().toString();
+        String Units = ETunits.getText().toString();
+        String stprice = ETprice.getText().toString();
+        double amount=Double.parseDouble(stamount);
+        double price=Double.parseDouble(stprice);
+    }
 }
 
 
