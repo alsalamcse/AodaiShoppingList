@@ -24,30 +24,35 @@
         android:id="@+id/TVTotal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/total" />
 
     <TextView
         android:id="@+id/TVTotalValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="0" />
 
     <TextView
         android:id="@+id/TVCount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="@string/Count" />
 
     <TextView
         android:id="@+id/TVCountValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:text="0" />
 
     <ImageButton
         android:id="@+id/IMBSAVE"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         app:srcCompat="@android:drawable/ic_menu_save" />
 
 </LinearLayout>
