@@ -1,4 +1,4 @@
-package com.badran.aodai.aodaishoppinglist.mainlistfragments;
+package amani.aslan.amani.amanishoppinglist.mainlistfragments;
 
 
 import android.os.Bundle;
@@ -8,9 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.badran.aodai.aodaishoppinglist.R;
-
-import java.util.List;
+import amani.amani.amani4.Amanishoppinglist.R;
 
 /**
  * A simple {@link Fragment} subclass.

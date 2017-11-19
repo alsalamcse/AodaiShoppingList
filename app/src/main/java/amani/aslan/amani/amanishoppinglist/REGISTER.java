@@ -1,7 +1,5 @@
-package com.badran.aodai.aodaishoppinglist;
+package amani.aslan.amani.amanishoppinglist;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -30,12 +28,12 @@ public class REGISTER extends AppCompatActivity implements View.OnClickListener 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register);
-        BTNSave = (Button) findViewById(R.id.BTNSave);
-        ETusername = (EditText) findViewById(R.id.ETusername);
-        ETemail = (EditText) findViewById(R.id.ETemail);
-        ETpassword = (EditText) findViewById(R.id.ETpassword);
-        BTNDELETE = (Button) findViewById(R.id.BTNDELETE);
+        setContentView(amani.amani.amani4.Amanishoppinglist.R.layout.activity_register);
+        BTNSave = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTNSave);
+        ETusername = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETusername);
+        ETemail = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETemail);
+        ETpassword = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETpassword);
+        BTNDELETE = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTNDELETE);
         auth = FirebaseAuth.getInstance();
         firebaseUser = auth.getCurrentUser();
 //

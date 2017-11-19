@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.badran.aodai.aodaishoppinglist">
+    package="com.aslan.amani.amanishoppinglist">
 
     <application
         android:allowBackup="true"
@@ -9,19 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LOGIN">
+        <activity android:name="com.aslan.amani.amanishoppinglist.amani.aslan.amani.amanishoppinglist.LOGIN">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".REGISTER" />
+        <activity android:name="com.aslan.amani.amanishoppinglist.amani.aslan.amani.amanishoppinglist.REGISTER" />
         <activity
-            android:name=".mainlistfragments.MainListActivity"
+            android:name="com.aslan.amani.amanishoppinglist.amani.aslan.amani.amanishoppinglist.mainlistfragments.MainListActivity"
             android:label="@string/title_activity_main_list"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".mainlistfragments.AddItem"></activity>
+        <activity android:name="com.aslan.amani.amanishoppinglist.amani.aslan.amani.amanishoppinglist.mainlistfragments.AddItem"></activity>
 
     </application>
 

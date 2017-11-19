@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.badran.aodai.aodaishoppinglist.mainlistfragments.MainListActivity">
+    tools:context="com.aslan.amani.amanishoppinglist.amani.aslan.amani.amanishoppinglist.mainlistfragments.MainListActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.badran.aodai.aodaishoppinglist.mainlistfragments.CurrentFragment">
+    tools:context="com.aslan.amani.amanishoppinglist.amani.aslan.amani.amanishoppinglist.mainlistfragments.CurrentFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

@@ -1,4 +1,4 @@
-package com.badran.aodai.aodaishoppinglist;
+package amani.aslan.amani.amanishoppinglist;
 
 import org.junit.Test;
 
