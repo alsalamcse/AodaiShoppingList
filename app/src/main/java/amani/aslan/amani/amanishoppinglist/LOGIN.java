@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import amani.aslan.amani.amanishoppinglist.mainlistfragments.MainListActivity;
+
+import com.aslan.amani.amanishoppinglist1.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -29,12 +31,12 @@ public class LOGIN extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(amani.amani.amani4.Amanishoppinglist.R.layout.activity_login);
-        ETusername = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETusername);
-        ETpassword = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETpassword);
-        BTNsignin = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTsignin);
-        BTNsignup = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTsignup);
-        BTNfmpassword = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTNfmpassword);
+        setContentView(R.layout.activity_login);
+        ETusername = (EditText) findViewById(R.id.ETusername);
+        ETpassword = (EditText) findViewById(R.id.ETpassword);
+        BTNsignin = (Button) findViewById(R.id.BTsignin);
+        BTNsignup = (Button) findViewById(R.id.BTsignup);
+        BTNfmpassword = (Button) findViewById(R.id.BTNfmpassword);
         BTNsignin.setOnClickListener(this);
         BTNsignup.setOnClickListener(this);
         BTNfmpassword.setOnClickListener(this);
