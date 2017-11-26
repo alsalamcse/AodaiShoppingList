@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.aslan.amani.amanishoppinglist1.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -28,12 +29,13 @@ public class REGISTER extends AppCompatActivity implements View.OnClickListener 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(amani.amani.amani4.Amanishoppinglist.R.layout.activity_register);
-        BTNSave = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTNSave);
-        ETusername = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETusername);
-        ETemail = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETemail);
-        ETpassword = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETpassword);
-        BTNDELETE = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTNDELETE);
+
+        setContentView(R.layout.activity_register);
+        BTNSave = (Button) findViewById(R.id.BTNSave);
+        ETusername = (EditText) findViewById(R.id.ETusername);
+        ETemail = (EditText) findViewById(R.id.ETemail);
+        ETpassword = (EditText) findViewById(R.id.ETpassword);
+        BTNDELETE = (Button) findViewById(R.id.BTNDELETE);
         auth = FirebaseAuth.getInstance();
         firebaseUser = auth.getCurrentUser();
 //
