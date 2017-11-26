@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.aslan.amani.amanishoppinglist.amani.aslan.amani.amanishoppinglist.LOGIN">
+    tools:context="com.aslan.amani.amanishoppinglist1.amani.aslan.amani.amanishoppinglist.LOGIN">
 
     <EditText
         android:id="@+id/ETusername"

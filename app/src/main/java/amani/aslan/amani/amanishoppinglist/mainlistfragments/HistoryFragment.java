@@ -8,7 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import amani.amani.amani4.Amanishoppinglist.R;
+import com.aslan.amani.amanishoppinglist1.R;
+
 
 /**
  * A simple {@link Fragment} subclass.

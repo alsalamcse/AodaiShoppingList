@@ -17,7 +17,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LOGIN extends AppCompatActivity implements View.OnClickListener {
-    private static final String PREF_FILE_NAME = "AodaiPref";
+    private static final String PREF_FILE_NAME = "AmaniPref";
     private Button BTNsignin;
     private Button BTNsignup;
     private Button BTNfmpassword;
