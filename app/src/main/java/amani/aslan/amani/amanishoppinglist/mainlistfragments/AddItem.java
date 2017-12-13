@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.aslan.amani.amanishoppinglist1.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -29,13 +30,13 @@ public class AddItem extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(amani.amani.amani4.Amanishoppinglist.R.layout.activity_add_item);
-        ETname = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETname);
-        ETamount = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETamount);
-        ETunits = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETunits);
-        ETprice = (EditText) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.ETprice);
-        BTNSave = (Button) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.BTNSave);
-        iBTNimage = (ImageView) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.iBTNimage);
+        setContentView(R.layout.activity_add_item);
+        ETname = (EditText) findViewById(R.id.ETname);
+        ETamount = (EditText) findViewById(R.id.ETamount);
+        ETunits = (EditText) findViewById(R.id.ETunits);
+        ETprice = (EditText) findViewById(R.id.ETprice);
+        BTNSave = (Button) findViewById(R.id.BTNSave);
+        iBTNimage = (ImageView) findViewById(R.id.iBTNimage);
 
 
     }

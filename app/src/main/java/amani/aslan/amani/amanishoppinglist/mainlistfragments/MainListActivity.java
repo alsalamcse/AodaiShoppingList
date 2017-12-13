@@ -20,6 +20,8 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import com.aslan.amani.amanishoppinglist1.R;
+
 public class MainListActivity extends AppCompatActivity {
 
     /**
@@ -42,9 +44,9 @@ public class MainListActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(amani.amani.amani4.Amanishoppinglist.R.layout.activity_main_list);
+        setContentView(R.layout.activity_main_list);
 
-        Toolbar toolbar = (Toolbar) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.toolbar);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
@@ -52,13 +54,13 @@ public class MainListActivity extends AppCompatActivity {
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.container);
+        mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
-        TabLayout tabLayout = (TabLayout) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.tabs);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(amani.amani.amani4.Amanishoppinglist.R.id.fab);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,7 +76,7 @@ public class MainListActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(amani.amani.amani4.Amanishoppinglist.R.menu.menu_main_list, menu);
+        getMenuInflater().inflate(R.menu.menu_main_list, menu);
         return true;
     }
 
@@ -86,7 +88,7 @@ public class MainListActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == amani.amani.amani4.Amanishoppinglist.R.id.action_settings) {
+        if (id == R.id.action_settings) {
             return true;
         }
 
@@ -121,9 +123,9 @@ public class MainListActivity extends AppCompatActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(amani.amani.amani4.Amanishoppinglist.R.layout.fragment_main_list, container, false);
-            TextView textView = (TextView) rootView.findViewById(amani.amani.amani4.Amanishoppinglist.R.id.section_label);
-            textView.setText(getString(amani.amani.amani4.Amanishoppinglist.R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            View rootView = inflater.inflate(R.layout.fragment_main_list, container, false);
+            TextView textView = (TextView) rootView.findViewById(R.id.section_label);
+            textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
             return rootView;
         }
     }
